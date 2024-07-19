@@ -19,7 +19,8 @@ public class OptionalExample {
 
         System.out.println(empty.isPresent());
         System.out.println(empty.isEmpty());
-
+        // orelse , orelseget, orelsethrow
+        // map, stream
 
     }
 }

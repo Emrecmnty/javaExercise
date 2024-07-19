@@ -11,7 +11,7 @@ public class StreamExample {
                 .map(String::toUpperCase)
                 .forEach(System.out::println);
 
-
+        // reduce flatmap collectors
         IntStream
                 .range(1,10)
                 .skip(2)

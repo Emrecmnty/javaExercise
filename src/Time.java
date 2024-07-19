@@ -17,7 +17,7 @@ public class Time {
         LocalDateTime dateTime = LocalDateTime.now();
         System.out.println("Güncel Tarih ve Zaman: " + dateTime);
 
-
+        
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String formattedDateTime = dateTime.format(formatter);
         System.out.println("Formatlanmış Tarih ve Zaman: " + formattedDateTime);
