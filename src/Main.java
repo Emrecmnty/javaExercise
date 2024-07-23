@@ -16,7 +16,7 @@ public class Main {
         MyFunctionalInterface myFunc = () -> System.out.println("Fonksiyonel Arayüz Örneği");
         myFunc.myMethod();
 
-
+// patch niye kullanılır Dto
 
 
     }

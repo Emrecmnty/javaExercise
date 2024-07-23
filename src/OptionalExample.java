@@ -19,8 +19,17 @@ public class OptionalExample {
 
         System.out.println(empty.isPresent());
         System.out.println(empty.isEmpty());
-        // orelse , orelseget, orelsethrow
-        // map, stream
+    /*     orelse , orelseget, orelsethrow
+        orElse her durumda alternatif değeri oluşturur.
+        orElseGet alternatif değeri sadece gerekli olduğunda oluşturur.
+                orElseThrow alternatif bir değer yerine bir istisna fırlatır.
+
+        final Java'da değişkenlerin, metodların ve sınıfların değişmezliğini sağlar.
+Thread safety, çoklu thread'lerin güvenli bir şekilde çalışmasını sağlar.
+Concurrency, aynı anda birden fazla işlemin yürütülmesini ifade eder.
+Mutable nesneler değiştirilebilir, immutable nesneler ise değiştirilemez.
+
+         */
 
     }
 }
